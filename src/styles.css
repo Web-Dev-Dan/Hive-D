@@ -5,12 +5,15 @@
   --color-gray--dark: #333333;
   ---color-black: #000000;
 
+  --color-blue--light: rgb(135, 193, 228);
   --color-blue: rgb(34, 142, 210);
   --color-blue--dark: rgb(27, 109, 159);
 
+  --color-green--light: rgb(148, 218, 148);
   --color-green: rgb(64, 189, 64);
   --color-green--dark: rgb(51, 158, 51);
 
+  --color-red--light: rgb(227, 145, 145);
   --color-red: rgb(222, 76, 76);
   --color-red--dark: rgb(187, 61, 61);
 }
@@ -59,4 +62,16 @@ input::placeholder {
 
 .btn--green:hover {
   background-color: var(--color-green--dark);
+}
+
+/* --- lOGO --- */
+.logo__text {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  border-top: 2px solid var(--color-white);
+  padding-top: 6px;
 }
